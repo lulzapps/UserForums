@@ -1,0 +1,11 @@
+{
+    "route_type": "public",
+    "route_prefix": "manage",
+    "sub_name": "",
+    "format": "",
+    "build_class": "",
+    "build_method": "",
+    "controller": "lulzapps\\UserForums:Manage",
+    "context": "forums",
+    "action_prefix": ""
+}
