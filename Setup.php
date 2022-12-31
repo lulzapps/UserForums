@@ -20,7 +20,8 @@ class Setup extends AbstractSetup
     {
         $this->schemaManager()->alterTable('xf_forum', function(Alter $table)
         {
-            $table->addColumn('lz_userforums_owner_id', 'int')->setDefault(0);
+            $table->addColumn('lz_userforums_creator_id', 'int')->setDefault(0);
+            $table->addColumn('lz_userforums_admin_id', 'int')->setDefault(0);
         });
 	}
 
