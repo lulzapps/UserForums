@@ -5,10 +5,9 @@
 <div class="block-container">
 <div class="block-body">
     <h2 class="block-formSectionHeader"><span class="block-formSectionHeader-aligner">Create your own forum</span></h2>
-    <xf:textboxrow name="forum_name" label="Name" explain="The name will appear in the URL (i.e. website.com/f/title), and must only contain letters and numbers and must be unique."/>
-    <xf:textboxrow name="forum_title" label="Title" explain="The name will appear in the forum list and other areas of the board."/>
-    <xf:textboxrow name="forum_desc" label="Description" explain="Appears in search results and social media links. 500 characters max."/>
-    <xf:afterhint>THIS IS THE AFTER HINT</xf:afterhint>
+    <xf:textboxrow name="forum_name" label="Name" maxLength="{$name_max_length}" explain="The name will appear in the URL (i.e. website.com/f/title), and must only contain letters and numbers and must be unique."/>
+    <xf:textboxrow name="forum_title" label="Title" maxLength="{$title_max_length}" explain="The name will appear in the forum list and other areas of the board."/>
+    <xf:textboxrow name="forum_desc" label="Description" maxLength="{$desc_max_length}" explain="Appears in search results and social media links. 500 characters max."/>
 
     <xf:radiorow name="forum_type" label="Type">
         <xf:option value="public" selected="true" hint="Anyone can view">Public</xf:option>

@@ -1,6 +1,6 @@
 {
     "route_type": "public",
-    "route_prefix": "manage",
+    "route_prefix": "userforums",
     "sub_name": "",
     "format": "",
     "build_class": "",
